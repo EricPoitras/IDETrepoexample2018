@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+      
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+      
+    <link rel="stylesheet" href="css/stylesheet.css">
+      
+    <link href="https://fonts.googleapis.com/css?family=Gaegu" rel="stylesheet">
+
+    <title>EDPS 6447 Week 10</title>
+      
+    <style>
+        body{
+            background-color: #D0D3C5;
+            font-family: 'Gaegu', cursive;
+            font-size: 1.5em;
+        }
+        
+        i, label{
+            color: #D73A31;
+        }
+        
+        .fa-minus-circle, .fa-chevron-circle-up, .fa-chevron-circle-down{
+            float: right;
+            font-size: 15pt;
+            margin-top: 5px;
+            display: none;
+            margin-left: 10px;
+        }
+        
+        .fa-plus-circle{
+            float: right;
+            font-size: 18pt;
+            margin-top: 5px;
+            padding-right: 20px;
+        }
+        
+        li p{
+            display: inline-block;
+            overflow:hidden;
+            text-overflow:ellipsis;
+            white-space: nowrap;
+            width: 60%;
+            margin-bottom: 0px;
+        }
+        
+        .container{
+            margin-top: 25px;
+        }
+        
+        nav{
+            color: #032B2F;
+        }
+        
+        #itemdescription{
+            background-color: #56B1BF;
+            color: white;
+            border-radius: 5px;
+            margin-top: 25px; 
+            padding: 25px 5px 25px 5px;
+            1px solid rgba(0,0,0,.125);
+        }
+        
+    </style>
+  </head>
+  <body>
+      <nav>
+        <h1 class="p-3"><i class="fas fa-clipboard-list mr-3"></i>STUFF TO DO</h1>
+      </nav>
+    
+      <div class="container">
+        <div class="row">
+            <div class="col">
+                <form class="form-group row">
+                    <label for="itemlabel" class="col-lg-1 col-form-label d-none d-lg-block"><h4>Task:</h4></label>
+                  <div class="col-lg-10 col-10">
+                    <input type="text" class="form-control" id="itemlabel">
+                  </div>
+                  <div class="col-lg-1 col-2">
+                    <i class="fas fa-plus-circle"></i>
+                  </div>
+                </form>
+                <ul class="list-group">
+                  <li class="list-group-item">
+                    <p>Cras justo odio</p>
+                    <i class="fas fa-chevron-circle-down"></i>
+                    <i class="fas fa-chevron-circle-up"></i>
+                    <i class="fas fa-minus-circle"></i>
+                  </li>
+                  <li class="list-group-item">
+                    <p>Dapibus ac facilisis in</p>
+                    <i class="fas fa-chevron-circle-down"></i>
+                    <i class="fas fa-chevron-circle-up"></i>
+                    <i class="fas fa-minus-circle"></i>
+                  </li>
+                  <li class="list-group-item">
+                    <p>Morbi leo risus</p>
+                    <i class="fas fa-chevron-circle-down"></i>
+                    <i class="fas fa-chevron-circle-up"></i>
+                    <i class="fas fa-minus-circle"></i>
+                  </li>
+                  <li class="list-group-item">
+                    <p>Porta ac consectetur ac</p>
+                    <i class="fas fa-chevron-circle-down"></i>
+                    <i class="fas fa-chevron-circle-up"></i>
+                    <i class="fas fa-minus-circle"></i>
+                  </li>
+                  <li class="list-group-item">
+                    <p>Vestibulum at eros</p>
+                    <i class="fas fa-chevron-circle-down"></i>
+                    <i class="fas fa-chevron-circle-up"></i>
+                    <i class="fas fa-minus-circle"></i>
+                  </li>
+                </ul>
+            </div>  
+        </div>
+        <div class="row">
+            <div class="col">
+                <p id="itemdescription">
+                    Do stuff today...
+                </p>
+            </div>
+        </div>
+      </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+      
+    <script src="js/main.js"></script>
+  </body>
+</html>
